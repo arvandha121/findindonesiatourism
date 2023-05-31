@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fitdev.findindonesiatourism"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml
+10
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\b0d57d2b375662897d708010d8bdeb38\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.fitdev.findindonesiatourism.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\b0d57d2b375662897d708010d8bdeb38\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\b0d57d2b375662897d708010d8bdeb38\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.fitdev.findindonesiatourism.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\b0d57d2b375662897d708010d8bdeb38\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\b0d57d2b375662897d708010d8bdeb38\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:5:5-45:19
+32        android:allowBackup="true"
+32-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:6:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\b0d57d2b375662897d708010d8bdeb38\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:7:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:8:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:9:9-43
+39        android:label="@string/app_name"
+39-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:10:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:11:9-54
+41        android:supportsRtl="true"
+41-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:12:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.FindIndonesiaTourism" >
+43-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:13:9-58
+44        <activity
+44-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:15:9-17:40
+45            android:name="com.fitdev.findindonesiatourism.ui.activity.splash.SplashOutActivity"
+45-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:16:13-65
+46            android:exported="false" />
+46-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:17:13-37
+47        <activity
+47-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:18:9-21:71
+48            android:name="com.fitdev.findindonesiatourism.ui.activity.login.LoginActivity"
+48-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:19:13-60
+49            android:exported="false"
+49-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:20:13-37
+50            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+50-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:21:13-69
+51        <activity
+51-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:22:9-31:20
+52            android:name="com.fitdev.findindonesiatourism.ui.activity.splash.SplashActivity"
+52-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:23:13-62
+53            android:exported="true"
+53-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:24:13-36
+54            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+54-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:25:13-69
+55            <intent-filter>
+55-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:26:13-30:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:27:17-69
+56-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:27:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:28:17-77
+58-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:28:27-74
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:29:17-76
+59-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:29:27-73
+60            </intent-filter>
+61        </activity>
+62
+63        <meta-data
+63-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:32:9-34:44
+64            android:name="com.google.android.geo.API_KEY"
+64-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:33:13-58
+65            android:value="YOUR_API_KEY" />
+65-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:34:13-41
+66
+67        <activity
+67-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:35:9-38:59
+68            android:name="com.fitdev.findindonesiatourism.ui.activity.maps.MapsActivity"
+68-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:36:13-58
+69            android:exported="false"
+69-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:37:13-37
+70            android:label="@string/title_activity_maps" />
+70-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:38:13-56
+71        <activity
+71-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:39:9-44:20
+72            android:name="com.fitdev.findindonesiatourism.ui.activity.main.MainActivity"
+72-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:40:13-58
+73            android:exported="false"
+73-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:41:13-37
+74            android:label="@string/app_name"
+74-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:42:13-45
+75            android:theme="@style/Theme.FindIndonesiaTourism" >
+75-->E:\Kuliah\Materi dan Tugas Kuliah\Semester6\Studi Independen Bangkit - Kampus Merdeka\Course\Capstone\findindonesiatourism\app\src\main\AndroidManifest.xml:43:13-62
+76        </activity>
+77        <activity
+77-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\asus\.gradle\caches\transforms-3\22b8247fcb82bb0646026f6ef0d24de5\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
+78            android:name="androidx.compose.ui.tooling.PreviewActivity"
+78-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\asus\.gradle\caches\transforms-3\22b8247fcb82bb0646026f6ef0d24de5\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
+79            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
+79-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\asus\.gradle\caches\transforms-3\22b8247fcb82bb0646026f6ef0d24de5\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
+80        <uses-library
+80-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+81            android:name="org.apache.http.legacy"
+81-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+82            android:required="false" />
+82-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\9b1a10b1d6af2d2b63ca3db8b5aedab7\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\a9909c77c9770ef216bb5eae4291ee30\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\a9909c77c9770ef216bb5eae4291ee30\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\a9909c77c9770ef216bb5eae4291ee30\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\a9909c77c9770ef216bb5eae4291ee30\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asus\.gradle\caches\transforms-3\4e350ff785536fc7915585baf131d630\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asus\.gradle\caches\transforms-3\4e350ff785536fc7915585baf131d630\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asus\.gradle\caches\transforms-3\4e350ff785536fc7915585baf131d630\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+92
+93        <activity
+93-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\asus\.gradle\caches\transforms-3\870e1003d23eac796c1d2e840715e45f\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
+94            android:name="androidx.activity.ComponentActivity"
+94-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\asus\.gradle\caches\transforms-3\870e1003d23eac796c1d2e840715e45f\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
+95            android:exported="true" />
+95-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\asus\.gradle\caches\transforms-3\870e1003d23eac796c1d2e840715e45f\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+99            android:authorities="com.fitdev.findindonesiatourism.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\8d76f9b96008c8c570dd70c73d2d9c96\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asus\.gradle\caches\transforms-3\054eb3981d34ce295272022c517bce87\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asus\.gradle\caches\transforms-3\054eb3981d34ce295272022c517bce87\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asus\.gradle\caches\transforms-3\054eb3981d34ce295272022c517bce87\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+110        </provider>
+111
+112        <receiver
+112-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+113-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+114            android:directBootAware="false"
+114-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+115            android:enabled="true"
+115-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+116            android:exported="true"
+116-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+117            android:permission="android.permission.DUMP" >
+117-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+119-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+122-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\a3178efd0e57eb2916ef7831147567a0\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>

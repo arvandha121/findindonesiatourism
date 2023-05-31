@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Background">#F2F9FF</color>
+    <color name="BackgroundMenu">#125A98</color>
+    <color name="Primary">#1D74B9</color>
+    <color name="Secondary">#A1BC0C</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#515151</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Find Indonesia Tourism</string>
+    <string name="email">Email address</string>
+    <string name="emailhint">Fill in your email address</string>
+    <string name="fill_in">Fill In</string>
+    <string name="login">Login</string>
+    <string name="loginMessageTextView">Please fill in the account login form to use this application.</string>
+    <string name="messagedonthaveaccount">Don\'t have an account yet? Sign Up</string>
+    <string name="password">Password</string>
+    <string name="passwordhint">Fill in your password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="titlesplash">Find Indonesia Tourism</string>
+    <style name="Theme.FindIndonesiaTourism" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

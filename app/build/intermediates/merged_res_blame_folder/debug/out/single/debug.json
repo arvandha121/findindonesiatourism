@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/layout_activity_login.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable_button_disable.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable/button_disable.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/layout_activity_splash.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable/baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable_button.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable/button.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/layout_activity_splash_out.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/layout/activity_splash_out.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable_logo.png.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable/logo.png"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/layout_activity_maps.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fitdev.findindonesiatourism.app-merged_res-58:/drawable_baseline_email_24.xml.flat",
+        "source": "com.fitdev.findindonesiatourism.app-main-60:/drawable/baseline_email_24.xml"
+    }
+]
